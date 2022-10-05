@@ -8,7 +8,7 @@ const axios_1 = __importDefault(require("axios"));
 function getAxiosClient() {
     const axiosClient = axios_1.default.create({
         baseURL: 'https://data.ct.gov/resource/',
-        headers: {},
+        headers: {}
     });
     return axiosClient;
 }
